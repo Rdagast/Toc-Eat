@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class Adaptater extends FragmentPagerAdapter {
 
     final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[] { "Mes posts", "Chercher", "Profil", "Chat" };
+    private String tabTitles[] = new String[] { "Mes posts", "Chercher", "Profil", "Chat"};
 
     public Adaptater (FragmentManager fm) {
         super(fm);

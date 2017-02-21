@@ -18,8 +18,9 @@
 
         <com.astuetz.PagerSlidingTabStrip
             android:id="@+id/tabs"
-            app:pstsShouldExpand="true"
+            app:pstsShouldExpand="false"
             app:pstsTextAllCaps="true"
+            app:pstsTabPaddingLeftRight="23sp"
             android:layout_width="match_parent"
             android:layout_height="48dp" />
 
@@ -28,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white" />
+
 
     </LinearLayout>
 </RelativeLayout>
