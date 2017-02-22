@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Avatar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="FirstName"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:text="LastName"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/LastName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:text="Job"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Job"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+</LinearLayout>
